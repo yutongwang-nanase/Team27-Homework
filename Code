@@ -27,7 +27,7 @@ def getSeg(text):
         text  = text[0:small]
         return getSeg(text)
 
-
+#主程序
 def main():
     global test_str
     test_str     = test_str.decode('utf8').strip()
